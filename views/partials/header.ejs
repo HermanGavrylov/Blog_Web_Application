@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Blog Web App</title>
+</head>
+<body>
+<div class="container-fluid">
+    <header class="d-flex justify-content-center py-3">
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a href="/" 
+                class="nav-link <%= page === 'Home' ? 'active' : '' %>"
+           <%= page === 'Home' ? 'aria-current="page"' : '' %>>Home</a></li>
+
+            <li class="nav-item"><a href="/blogs"
+                 class="nav-link <%= page === 'Blogs' ? 'active' : '' %>"
+           <%= page === 'Blogs' ? 'aria-current="page"' : '' %>>Blogs</a></li>
+
+            <li class="nav-item"><a href="/create"
+                 class="nav-link <%= page === 'Create' ? 'active' : '' %>"
+           <%= page === 'Create' ? 'aria-current="page"' : '' %>>Create</a></li>
+        </ul>
+    </header>
+</div>
+<main>
