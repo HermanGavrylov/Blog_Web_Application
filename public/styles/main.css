@@ -1,48 +1,13 @@
-.container-fluid {
-    background-color: #1A1A1A;}
-
-.header {
-    max-width: calc(100% - 200px);
-    margin: 0 auto;
+html, body {
+    height: 100%;
+    margin: 0;
 }
 
-.icon svg {
-    color: #FFD11A;
-    width: 50px;
-    height: 50px;
+body {
+    display: flex;
+    flex-direction: column;
 }
 
-.logo_Text {
-    color: #FFFFFF;
-    margin-left: 5px;
-    font-family: "Sansation", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.nav-link {
-    color: #7E7E81;
-    font-family: "Sansation", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.nav-link:hover {
-    color: #FFFFFF;
-}
-
-.active {
-    background-color: #141414 !important;
-    color: #FFFFFF !important;
-    border: 1px solid #333333 !important;
-}
-
-.active:hover {
-    background-color: #FFD11A !important;
-    color:  #141414!important;
-    border: 1px solid #333333 !important;
-}
-
-.btn {
-    width: 137px !important;
+main {
+    flex: 1;
 }
