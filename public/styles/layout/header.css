@@ -1,49 +1,50 @@
 .container_header {
-    background-color: #1A1A1A;}
+  background-color: #262626;
+}
 
 .header {
-    max-width: calc(100% - 200px);
-    height: 60px;
-    margin: 0 auto;
+  max-width: calc(100% - 200px);
+  height: 60px;
+  margin: 0 auto;
 }
 
 .icon svg {
-    color: #FFD11A;
-    width: 50px;
-    height: 50px;
+  color: #ffd11a;
+  width: 50px;
+  height: 50px;
 }
 
 .logo_Text {
-    color: #FFFFFF;
-    margin-left: 5px;
-    font-family: "Sansation", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  color: #ffffff;
+  margin-left: 5px;
+  font-family: "Sansation", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header .nav-link {
-    color: #7E7E81;
-    font-family: "Sansation", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  color: #7e7e81;
+  font-family: "Sansation", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header .nav-link:hover {
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 header .active {
-    background-color: #141414 !important;
-    color: #FFFFFF !important;
-    border: 1px solid #333333 !important;
+  background-color: #141414 !important;
+  color: #ffffff !important;
+  border: 1px solid #333333 !important;
 }
 
 header .active:hover {
-    background-color: #FFD11A !important;
-    color:  #141414!important;
-    border: 1px solid #333333 !important;
+  background-color: #ffd11a !important;
+  color: #141414 !important;
+  border: 1px solid #333333 !important;
 }
 
-header  .btn {
-    width: 137px !important;
+header .btn {
+  width: 137px !important;
 }
